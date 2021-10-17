@@ -1,3 +1,15 @@
+body {
+  background-image: url(./images/les_derevya_tuman_110131_1920x1080.jpg);
+  background-size: cover;
+}
+
+.loaderBox {
+  position: relative;
+  left: auto;
+  right: auto;
+  bottom: 50px;
+}
+
 .App {
   text-align: center;
 }

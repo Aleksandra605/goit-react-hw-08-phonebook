@@ -1,0 +1,17 @@
+.contactsBox {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 40px;
+  padding-right: 50px;
+  padding-left: 50px;
+}
+
+.loaderBox {
+  position: absolute;
+  /* left: 530px;
+  right: auto; */
+  left: 50%;
+  right: 50%;
+  bottom: 40px;
+}

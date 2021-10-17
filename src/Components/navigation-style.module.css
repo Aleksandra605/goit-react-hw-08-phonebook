@@ -1,0 +1,81 @@
+.appBar {
+  box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+  display: flex;
+  padding-left: 50px;
+  padding-right: 50px;
+  height: 50px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav {
+  display: flex;
+}
+
+.phonebook {
+  text-decoration: none;
+  color: black;
+}
+
+.phonebook:hover,
+.phonebook:focus {
+  color: rgb(12, 90, 100);
+}
+
+.home {
+  text-decoration: none;
+  display: block;
+  color: black;
+  margin-right: 15px;
+}
+
+.home:hover,
+.home:focus {
+  color: rgb(12, 90, 100);
+}
+
+.authorization {
+  display: flex;
+  width: 150px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.registration:hover,
+.registration:focus {
+  color: rgb(12, 90, 100);
+  font-size: 17px;
+}
+
+.registration {
+  display: block;
+  text-decoration: none;
+  color: black;
+}
+
+.login {
+  display: block;
+
+  text-decoration: none;
+  color: black;
+}
+
+.login:hover,
+.login:focus {
+  color: rgb(12, 90, 100);
+  font-size: 17px;
+}
+
+.btn {
+  outline: none;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  margin-left: 20px;
+  color: rgb(192, 0, 0);
+}
+
+.btn:hover,
+.btn:focus {
+  font-size: 17px;
+}
