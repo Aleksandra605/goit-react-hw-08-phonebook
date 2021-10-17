@@ -34,8 +34,7 @@ function LoginView({ onLogin }) {
       <input
         type="email"
         name="email"
-        pattern=".+@globex\.com"
-        title="Номер телефона должен состоять цифр и может содержать пробелы, тире, круглые скобки и может начинаться с +"
+        pattern=".+@mail\.com"
         required
         value={email}
         onChange={handleChange}
@@ -45,7 +44,6 @@ function LoginView({ onLogin }) {
       <input
         type="password"
         name="password"
-        title="Номер телефона должен состоять цифр и может содержать пробелы, тире, круглые скобки и может начинаться с +"
         required
         value={password}
         onChange={handleChange}
