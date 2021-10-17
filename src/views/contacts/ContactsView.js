@@ -6,7 +6,7 @@ import ContactsList from '../../Components/contacts-list/ContactList';
 import Filter from '../../Components/filter/Filter';
 import Loader from 'react-loader-spinner';
 import { fetchContacts } from '../../redux/contacts-operations';
-import { getLoading, getVisibleContacts } from '../../redux/contacts-selectors';
+import { getLoading } from '../../redux/contacts-selectors';
 
 class ContactsView extends Component {
   state = {};
@@ -37,7 +37,6 @@ class ContactsView extends Component {
           </div>
 
           <ContactsList />
-          {/* <ContactsList /> */}
         </div>
       </>
     );
@@ -46,7 +45,6 @@ class ContactsView extends Component {
 
 const mapStateToProps = state => ({
   isLoadingcontacts: getLoading(state),
-  contacts: getVisibleContacts(state),
 });
 
 const mapDispatchToProps = dispatch => ({
