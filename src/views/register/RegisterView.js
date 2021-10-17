@@ -49,7 +49,7 @@ function RegisterView({ onRegister }) {
       <input
         type="email"
         name="email"
-        // pattern=".+@globex\.com"
+        pattern=".+@mail\.com"
         // title="Номер телефона должен состоять цифр и может содержать пробелы, тире, круглые скобки и может начинаться с +"
         required
         value={email}
